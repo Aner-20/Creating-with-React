@@ -9,7 +9,7 @@ export const ThemeContext = React.createContext()   // provider, consumer
 
 function App() {
   console.log("Render App")
-  const [theme, setTheme] = useState('red')
+  const [theme, setTheme] = useState('white')
   return (
     <ThemeContext.Provider value={{ backgroundColor: theme}}>
     
